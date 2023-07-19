@@ -6,3 +6,9 @@
     text-shadow: 4px 4px #000;
     font-family: 'Press Start 2P', cursive;
 }
+
+.title.-second {  /* element with classes title and -second */
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+}
