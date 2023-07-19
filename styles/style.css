@@ -10,6 +10,11 @@
     --color-black-third: #828282;  
 }
 
+img[alt] {
+    font-family: 'Fira Code', monospace;
+    font-size: 10px;
+}
+
 nav {
     display: flex;
     gap: 40px;
