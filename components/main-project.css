@@ -1,0 +1,24 @@
+.main-project {
+    display: block;
+    background-color: var(--color-first);
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 0px #fff;
+}
+
+.main-project {
+    background-image: url(../img/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-project:hover {
+    transform:scale(1.05);
+    transition: transform 0.1s linear;
+}
+
+.main-project a {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
