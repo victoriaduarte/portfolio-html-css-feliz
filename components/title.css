@@ -1,0 +1,8 @@
+.title {
+    color: var(--color-first);
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 400;
+    text-shadow: 4px 4px #000;
+    font-family: 'Press Start 2P', cursive;
+}

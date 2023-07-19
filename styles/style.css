@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
     --color-first: #835dd7;  
@@ -24,4 +25,11 @@ nav {
     background-image: url('../img/banner.jpeg');
     background-size: cover;
     background-attachment: fixed;
+}
+
+#banner-buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 30px;
 }

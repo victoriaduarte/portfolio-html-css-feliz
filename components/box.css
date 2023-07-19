@@ -1,0 +1,10 @@
+.box {
+    background-color: var(--color-black-second);
+    padding: 20px;
+    box-shadow: 7px 7px 0px #000;
+    text-align: center;
+}
+
+.box .title {
+    margin-bottom: 6px;
+}
