@@ -19,3 +19,12 @@ nav {
     display: flex;
     gap: 40px;
 }
+
+.about {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+}

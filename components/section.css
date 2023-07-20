@@ -13,3 +13,8 @@
     background-color: #000;
     border-bottom: 10px solid var(--color-first);
 }
+
+.section.-third {
+    background-color: #000;
+    border-bottom: 10px solid var(--color-second);
+}
