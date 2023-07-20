@@ -1,15 +1,29 @@
 .card-project {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-first);
     width: 200px;
     height: 200px;
     box-shadow: 5px 5px 0px #fff;
 }
 
-.card-project {
-    background-image: url(../img/cover.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.card-project .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-project img {
+    width: 100%;
+}
+
+.card-project.-blue {
+    background-color: #4c5b84;
+}
+
+.card-project.-green {
+    background-color: var(--color-second);
 }
 
 .card-project:hover {
@@ -17,7 +31,7 @@
     transition: transform 0.1s linear;
 }
 
-.card-project a {
+.card-project .project {
     display: block;
     width: 200px;
     height: 200px;
