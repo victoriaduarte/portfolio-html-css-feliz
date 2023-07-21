@@ -19,13 +19,3 @@ nav {
     display: flex;
     gap: 40px;
 }
-
-.about {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    text-align: justify;
-    max-width: 1030px;
-    padding: 50px 40px 0;
-    margin: auto;
-}
