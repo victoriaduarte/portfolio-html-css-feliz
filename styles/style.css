@@ -13,6 +13,7 @@
 img[alt] {
     font-family: 'Fira Code', monospace;
     font-size: 10px;
+    color: #fff;
 }
 
 nav {
