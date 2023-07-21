@@ -9,12 +9,30 @@
     margin-bottom: 40px;
 }
 
-.main-section.-second {
+.main-section.-bgSecond {
+    background-color: var(--color-second);
+}
+
+.main-section.-bgBlack {
+    background-color: #000;
+}
+
+.main-section.-bgBlackSecond {
     background-color: var(--color-black-second);
+}
+
+.main-section.-bdFirst {
     border-bottom: 10px solid var(--color-first);
 }
 
-.main-section.-third {
-    background-color: #000;
+.main-section.-bdSecond {
     border-bottom: 10px solid var(--color-second);
+}
+
+.main-section.-bdBlack {
+    border-bottom: 10px solid #000;
+}
+
+.main-section.-bdBlackSecond {
+    border-bottom: 10px solid var(--color-black-second);
 }
