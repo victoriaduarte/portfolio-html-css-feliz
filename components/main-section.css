@@ -1,20 +1,20 @@
-.section {
+.main-section {
     background-color: var(--color-first);
     padding-top: 30px;
     padding-bottom: 60px;
     border-bottom: 10px solid var(--color-second);
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 40px;
 }
 
-.section.-second {
+.main-section.-second {
     background-color: var(--color-black-second);
     border-bottom: 10px solid var(--color-first);
 }
 
-.section.-third {
+.main-section.-third {
     background-color: #000;
     border-bottom: 10px solid var(--color-second);
 }
