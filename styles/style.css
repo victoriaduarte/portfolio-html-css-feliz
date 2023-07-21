@@ -25,6 +25,7 @@ nav {
     justify-content: center;
     color: #fff;
     text-align: justify;
-    margin-left: 60px;
-    margin-right: 60px;
+    max-width: 1030px;
+    padding: 50px 40px 0;
+    margin: auto;
 }
