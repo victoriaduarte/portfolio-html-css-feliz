@@ -1,7 +1,7 @@
-.photo {
+.main-photo {
     text-align: center;
 }
 
-.photo img {
+.main-photo img {
     box-shadow: 5px 5px 0px var(--color-first);
 }
