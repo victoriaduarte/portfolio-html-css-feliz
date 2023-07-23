@@ -1,0 +1,20 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--color-black-second);
+    padding: 16px;
+}
+
+.main-footer img {
+    width: 36px;
+}
+
+.main-footer a {
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    transform:scale(1.05);
+    transition: transform 0.1s linear;
+}
