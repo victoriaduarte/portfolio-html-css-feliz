@@ -1,0 +1,12 @@
+.main-input {
+    border: 2px solid #000;
+    height: 24px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.main-input.-textarea {
+    height: 100px;
+    font-family: 'Fira Code', monospace;
+}

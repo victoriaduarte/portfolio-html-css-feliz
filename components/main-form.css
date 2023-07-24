@@ -1,0 +1,21 @@
+.main-form {
+    max-width: 1030px;
+    padding: 0px 40px;
+    margin: auto;
+}
+
+.main-form .main-input {
+    margin-bottom: 10px;
+}
+
+.main-form .main-input.-textarea {
+    margin-bottom: 20px;
+}
+
+.main-form .main-button {
+    border: none;
+    padding: 10px;
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    cursor: pointer;
+}
