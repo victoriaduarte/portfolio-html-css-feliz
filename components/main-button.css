@@ -15,3 +15,20 @@
     background-color: #7150b9;
     transform:scale(1.05);
 }
+
+.main-button.-bgSecond {
+    background-color: var(--color-second);
+}
+
+.main-button.-bgSecond:hover {
+    background-color: #768521;
+    transform:scale(1.05);
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform:scale(1.02);
+}
