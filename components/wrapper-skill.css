@@ -13,3 +13,11 @@
 .wrapper-skill .skill-tech:nth-child(odd) {
     margin-left: auto;
 }
+
+@media screen and (max-width: 880px) {
+    
+    .wrapper-skill {
+        max-width: 400px;
+    }
+    
+}

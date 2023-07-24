@@ -2,10 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-first);
-    width: 200px;
-    height: 200px;
-    box-shadow: 5px 5px 0px #fff;
+ 
 }
 
 .card-project .image {
@@ -15,7 +12,13 @@
 }
 
 .card-project img {
-    width: 100%;
+    /* width: 100%; */
+    box-shadow: 5px 5px 0px #fff;
+
+}
+
+.card-project .project {
+    text-decoration: none;
 }
 
 .card-project.-blue {
@@ -29,4 +32,11 @@
 .card-project:hover {
     transform:scale(1.05);
     transition: transform 0.1s linear;
+}
+
+@media screen and (max-width: 880px) {
+
+    .card-project img {
+        width: 90%;
+    }
 }

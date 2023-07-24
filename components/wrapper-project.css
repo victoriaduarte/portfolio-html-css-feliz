@@ -3,3 +3,12 @@
     justify-content: center;
     gap: 120px;
 }
+
+@media screen and (max-width: 880px) {
+
+    .wrapper-project {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
