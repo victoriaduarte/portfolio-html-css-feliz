@@ -1,0 +1,22 @@
+.icon-close {
+    display: none !important;
+}
+
+@media screen and (max-width: 880px) {
+
+    .icon-close { 
+        display: block !important;
+    }
+
+    .icon-close span {
+        color: #fff;
+        font-size: 50px !important;
+        cursor: pointer;    
+    }
+
+    .icon-close span:hover {
+        color: var(--color-first);
+        transform: scale(1.3);
+        transition: transform 0.1s linear;
+    }
+}

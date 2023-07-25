@@ -6,12 +6,15 @@
 
     .icon-menu {
         display: block !important;
+    }
+
+    .icon-menu span {
         color: #000;
         font-size: 50px !important;
         cursor: pointer;    
     }
 
-    .icon-menu:hover {
+    .icon-menu span:hover {
         color: #fff;
     }
 }

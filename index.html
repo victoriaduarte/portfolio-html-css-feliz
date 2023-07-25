@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="components/main-label.css">
     <link rel="stylesheet" href="components/main-input.css">
     <link rel="stylesheet" href="components/icon-menu.css">
+    <link rel="stylesheet" href="components/icon-close.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -35,7 +36,9 @@
     <header id="header" class="main-header">
         <img src="img/logo.png" alt="Victória Logo">
 
-        <span class="icon-menu material-symbols-outlined" onclick="clickNavigation()">menu</span>
+        <a class="icon-menu" href="#menu">
+            <span class="material-symbols-outlined" onclick="clickNavigation()">menu</span>
+        </a>
 
         <nav id="menu" class="menu">
             <a class="main-action" href="#skills">Skills</a>
@@ -43,6 +46,10 @@
             <a class="main-action" href="#about">About</a>
             <a class="main-action" href="#contact">Contact</a>
             <a class="main-button" href="Victória's Resume.pdf" download="Victória's Resume.pdf" type="application/pdf">Download CV</a>
+        
+            <a class="icon-close" href="#menu">
+                <span class="material-symbols-outlined" onclick="clickNavigation()>close</span>
+            </a>
         </nav>
     </header>
 

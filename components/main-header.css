@@ -33,4 +33,10 @@
         display: block;
     }
 
+    .main-header .icon-close {
+        position: absolute;
+        padding: 16px;
+        top: 0;
+        right: 0;
+    }
 }
