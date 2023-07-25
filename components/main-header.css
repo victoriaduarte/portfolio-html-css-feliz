@@ -7,7 +7,7 @@
     padding: 10px 20px;
 }
 
-.navigation {  /* Item of header component */
+.menu {  /* Item of header component */
     display: flex;
     gap: 40px;
 }
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 880px) {
    
-    .navigation { 
+    .menu { 
         display: none;
     }
 
