@@ -6,12 +6,12 @@
 
     .icon-menu {
         display: block !important;
-        color: #fff;
+        color: #000;
         font-size: 50px !important;
         cursor: pointer;    
     }
 
     .icon-menu:hover {
-        color: var(--color-first);
+        color: #fff;
     }
 }
