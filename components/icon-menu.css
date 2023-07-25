@@ -1,17 +1,17 @@
-.main-menu {
+.icon-menu {
     display: none !important;
 }
 
 @media screen and (max-width: 880px) {
 
-    .main-menu {
+    .icon-menu {
         display: block !important;
         color: #fff;
         font-size: 50px !important;
         cursor: pointer;    
     }
 
-    .main-menu:hover {
+    .icon-menu:hover {
         color: var(--color-first);
     }
 }
