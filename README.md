@@ -6,7 +6,7 @@ Project inspired by the course "Portfolio HTML e CSS feliz" on YouTube.
 <strong>https://victoriaduarte.github.io/portfolio-html-css-feliz/</strong>
 
 #### Desktop preview
-<img src="img/readme-web-preview.png" alt="Desktop preview">
+<img src="img/readme-desktop-preview.png" alt="Desktop preview">
 
 #### Mobile preview
 <div style="display:flex;justify-content:center;gap:30px">
