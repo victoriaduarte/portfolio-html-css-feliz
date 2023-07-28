@@ -1,5 +1,14 @@
-function clickNavigation() {
+function openMenu() {
+    if (menu.style.display == 'flex') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'flex';
+        menu.style.flexDirection = 'column';
+    }
+}
 
+
+function closeMenu() {
     if (menu.style.display == 'flex') {
         menu.style.display = 'none';
     } else {
@@ -9,7 +18,6 @@ function clickNavigation() {
 }
 
 function resize() {
-
     if (window.innerWidth >= 880) {
         menu.style.display = 'flex';
         menu.style.flexDirection = 'row';
