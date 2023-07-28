@@ -17,6 +17,14 @@ function closeMenu() {
     }
 }
 
+
+function selectMainAction() {
+    if (window.innerWidth < 880) {
+        closeMenu();
+    }
+}
+
+
 function resize() {
     if (window.innerWidth >= 880) {
         menu.style.display = 'flex';
